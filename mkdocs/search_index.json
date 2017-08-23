@@ -1,0 +1,59 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "NeuraFlash Chatbot Solutions\n\n\n\n\nFeatures\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#neuraflash-chatbot-solutions", 
+            "text": "", 
+            "title": "NeuraFlash Chatbot Solutions"
+        }, 
+        {
+            "location": "/#features", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "What is Chatbot Solution?\n\n\nA tool that helps you serve your customers conversationally by adding an AUTO BOT (a chat component is provided part of the package) to your communities. It also gives you the flexibility of using any NLP (Natural Language Processor) of your choice (Wit.ai and Api.ai provided by default).\n\n\nHow do I setup the bot for my community?\n\n\nSetting up the bot for the community is very simple.\n\nAll you need to do is drag and drop the \"ChatBot\" Lightning component onto any Lightning page of the community.\n\nBy default it connects to our default bot, but you will be able to configure the bot to connect to your own NLP platform.\n\n\nHow do I setup the bot to connect to a different NLP platform?\n\n\nBy default the package has the ability to connect to Amazon Lex, Wit.ai or Api.ai. To configure either of these NLP platforms-\n\n\u00a0\u00a01. Navigate to the \nConfiguration\n page of our app and click on create new.\n\n\u00a0\u00a02. Fill in the details with the NLP platform being configured and save.\n\n\u00a0\u00a03. Navigate to the community page where you are using the ChatBot Component and click on the component.\n\n\u00a0\u00a04. A popup asking for Chat Config opens up, use the name of the Config here. All Set! Now your Bot is configured with the NLP platform of your choice.\n\n\nWhat is NLP\n\n\nNatural language processing\n (NLP) is a field of computer science, artificial intelligence, and computational linguistics concerned with the interactions between computers and human (natural) languages.\n\n\nWhat is Amazon Lex?\n\n\nAmazon Lex\n - Amazon Bot Engine. Amazon Lex is a service for building conversational interfaces into any application using voice and text. Amazon Lex provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text, to enable you to build applications with highly engaging user experiences and lifelike conversational interactions. With Amazon Lex, the same deep learning technologies that power Amazon Alexa are now available to any developer, enabling you to quickly and easily build sophisticated, natural language, conversational bots (\u201cchatbots\u201d).\n\n\nWhat is Wit.ai?\n\n\nWit.ai\n - Facebook Bot Engine. Natural Language for Developers. Easily create text or voice based bots that humans can chat with on their preferred messaging platform. Users enjoy a hands-free mobile experience while driving, working out, cooking. Developers use Wit to easily build a voice interface for their app.\n\n\nWhat is Api.ai?\n\n\nApi.ai\n - Google's Bot Engine. Conversational User Experience Platform. Build brand-unique, natural language interactions for bots, applications, services, and devices.", 
+            "title": "About Me"
+        }, 
+        {
+            "location": "/about/#what-is-chatbot-solution", 
+            "text": "A tool that helps you serve your customers conversationally by adding an AUTO BOT (a chat component is provided part of the package) to your communities. It also gives you the flexibility of using any NLP (Natural Language Processor) of your choice (Wit.ai and Api.ai provided by default).", 
+            "title": "What is Chatbot Solution?"
+        }, 
+        {
+            "location": "/about/#how-do-i-setup-the-bot-for-my-community", 
+            "text": "Setting up the bot for the community is very simple. \nAll you need to do is drag and drop the \"ChatBot\" Lightning component onto any Lightning page of the community. \nBy default it connects to our default bot, but you will be able to configure the bot to connect to your own NLP platform.", 
+            "title": "How do I setup the bot for my community?"
+        }, 
+        {
+            "location": "/about/#how-do-i-setup-the-bot-to-connect-to-a-different-nlp-platform", 
+            "text": "By default the package has the ability to connect to Amazon Lex, Wit.ai or Api.ai. To configure either of these NLP platforms- \n\u00a0\u00a01. Navigate to the  Configuration  page of our app and click on create new. \n\u00a0\u00a02. Fill in the details with the NLP platform being configured and save. \n\u00a0\u00a03. Navigate to the community page where you are using the ChatBot Component and click on the component. \n\u00a0\u00a04. A popup asking for Chat Config opens up, use the name of the Config here. All Set! Now your Bot is configured with the NLP platform of your choice.", 
+            "title": "How do I setup the bot to connect to a different NLP platform?"
+        }, 
+        {
+            "location": "/about/#what-is-nlp", 
+            "text": "Natural language processing  (NLP) is a field of computer science, artificial intelligence, and computational linguistics concerned with the interactions between computers and human (natural) languages.", 
+            "title": "What is NLP"
+        }, 
+        {
+            "location": "/about/#what-is-amazon-lex", 
+            "text": "Amazon Lex  - Amazon Bot Engine. Amazon Lex is a service for building conversational interfaces into any application using voice and text. Amazon Lex provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text, to enable you to build applications with highly engaging user experiences and lifelike conversational interactions. With Amazon Lex, the same deep learning technologies that power Amazon Alexa are now available to any developer, enabling you to quickly and easily build sophisticated, natural language, conversational bots (\u201cchatbots\u201d).", 
+            "title": "What is Amazon Lex?"
+        }, 
+        {
+            "location": "/about/#what-is-witai", 
+            "text": "Wit.ai  - Facebook Bot Engine. Natural Language for Developers. Easily create text or voice based bots that humans can chat with on their preferred messaging platform. Users enjoy a hands-free mobile experience while driving, working out, cooking. Developers use Wit to easily build a voice interface for their app.", 
+            "title": "What is Wit.ai?"
+        }, 
+        {
+            "location": "/about/#what-is-apiai", 
+            "text": "Api.ai  - Google's Bot Engine. Conversational User Experience Platform. Build brand-unique, natural language interactions for bots, applications, services, and devices.", 
+            "title": "What is Api.ai?"
+        }
+    ]
+}
