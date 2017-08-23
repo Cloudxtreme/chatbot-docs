@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "NeuraFlash Chatbot Solutions\n\n\n\n\nFeatures\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.", 
+            "text": "NeuraFlash Chatbot Solutions\n\n\nFeatures\n\n\n\n\nintegrations Chatbot platforms with Salesforce Communities. Engage NeuraFlash for Chatbots integrated with other digital channels, including Live Agent (web chat), LiveMessage (SMS/Facebook Messenger), mobile apps etc.\n\n\nability to automatically create a Lead from a Chatbot (Bot2Lead)\n\n\nability to automatically create a Case from a Chatbot (Bot2Case)\n\n\nescalate to an Agent (LiveAgent) in Salesforce\n\n\n\n\nWhat's coming soon?\n\n\n\n\nKnowledge Integration\n\n\nFull Community Integration\n\n\nCode Generator for External Websites\n\n\nSalesforce Bot Platform support", 
             "title": "Home"
         }, 
         {
@@ -12,8 +12,13 @@
         }, 
         {
             "location": "/#features", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "text": "integrations Chatbot platforms with Salesforce Communities. Engage NeuraFlash for Chatbots integrated with other digital channels, including Live Agent (web chat), LiveMessage (SMS/Facebook Messenger), mobile apps etc.  ability to automatically create a Lead from a Chatbot (Bot2Lead)  ability to automatically create a Case from a Chatbot (Bot2Case)  escalate to an Agent (LiveAgent) in Salesforce", 
             "title": "Features"
+        }, 
+        {
+            "location": "/#whats-coming-soon", 
+            "text": "Knowledge Integration  Full Community Integration  Code Generator for External Websites  Salesforce Bot Platform support", 
+            "title": "What's coming soon?"
         }, 
         {
             "location": "/about/", 
@@ -54,6 +59,66 @@
             "location": "/about/#what-is-apiai", 
             "text": "Api.ai  - Google's Bot Engine. Conversational User Experience Platform. Build brand-unique, natural language interactions for bots, applications, services, and devices.", 
             "title": "What is Api.ai?"
+        }, 
+        {
+            "location": "/admin_guide/", 
+            "text": "NeuraFlash Chatbot Solutions\n\n\nAdmin Guide\n\n\nSetup Instructions", 
+            "title": "Admin Guide"
+        }, 
+        {
+            "location": "/admin_guide/#neuraflash-chatbot-solutions", 
+            "text": "", 
+            "title": "NeuraFlash Chatbot Solutions"
+        }, 
+        {
+            "location": "/admin_guide/#admin-guide", 
+            "text": "", 
+            "title": "Admin Guide"
+        }, 
+        {
+            "location": "/admin_guide/#setup-instructions", 
+            "text": "", 
+            "title": "Setup Instructions"
+        }, 
+        {
+            "location": "/user_guide/", 
+            "text": "NeuraFlash Chatbot Solutions\n\n\nUser Guide\n\n\nUsage", 
+            "title": "User Guide"
+        }, 
+        {
+            "location": "/user_guide/#neuraflash-chatbot-solutions", 
+            "text": "", 
+            "title": "NeuraFlash Chatbot Solutions"
+        }, 
+        {
+            "location": "/user_guide/#user-guide", 
+            "text": "", 
+            "title": "User Guide"
+        }, 
+        {
+            "location": "/user_guide/#usage", 
+            "text": "", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/developer_guide/", 
+            "text": "NeuraFlash Chatbot Solutions\n\n\nDeveloper Guide\n\n\nAPI Usage", 
+            "title": "Developer Guide"
+        }, 
+        {
+            "location": "/developer_guide/#neuraflash-chatbot-solutions", 
+            "text": "", 
+            "title": "NeuraFlash Chatbot Solutions"
+        }, 
+        {
+            "location": "/developer_guide/#developer-guide", 
+            "text": "", 
+            "title": "Developer Guide"
+        }, 
+        {
+            "location": "/developer_guide/#api-usage", 
+            "text": "", 
+            "title": "API Usage"
         }
     ]
 }
