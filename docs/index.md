@@ -1,6 +1,6 @@
 # NeuraFlash Chatbot Solutions
 
-<Enter the description about the app here>
+Add AI to your community
 
 ## Features
 
