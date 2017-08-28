@@ -1,5 +1,7 @@
 # NeuraFlash Chatbot Solutions
 
+Add AI to your community
+
 ## Features
 
 * integrations Chatbot platforms with Salesforce Communities. Engage NeuraFlash for Chatbots integrated with other digital channels, including Live Agent (web chat), LiveMessage (SMS/Facebook Messenger), mobile apps etc.

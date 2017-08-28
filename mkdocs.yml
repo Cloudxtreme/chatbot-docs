@@ -3,7 +3,12 @@ theme: 'material'
 pages: 
   - Home: index.md
   - About Me: about.md
+<<<<<<< HEAD
   - Admin Guide: admin_guide.md
   - User Guide: user_guide.md
   - Developer Guide: developer_guide.md
   
+=======
+  - User Guide: user_guide.md
+  - Admin Guide: Admin_guide.md
+>>>>>>> 1a7c17a12079759ad21889637f01cc4b4bc14f62

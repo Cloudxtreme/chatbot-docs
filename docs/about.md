@@ -1,4 +1,4 @@
-## What is Chatbot Solution?
+﻿## What is Chatbot Solution?
 
 A tool that helps you serve your customers conversationally by adding an AUTO BOT (a chat component is provided part of the package) to your communities. It also gives you the flexibility of using any NLP (Natural Language Processor) of your choice (Wit.ai and Api.ai provided by default).
 
@@ -8,7 +8,7 @@ Setting up the bot for the community is very simple.
 All you need to do is drag and drop the "ChatBot" Lightning component onto any Lightning page of the community.  
 By default it connects to our default bot, but you will be able to configure the bot to connect to your own NLP platform.
 
-## How do I setup the bot to connect to a different NLP platform?
+## How do you setup the bot to connect to a different NLP platform?
 
 By default the package has the ability to connect to Amazon Lex, Wit.ai or Api.ai. To configure either of these NLP platforms-  
   1\. Navigate to the <a onclick="{!c.openConfiguration}">Configuration</a> page of our app and click on create new.  
