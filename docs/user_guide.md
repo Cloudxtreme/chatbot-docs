@@ -16,6 +16,5 @@ A tool that helps you serve your customers conversationally by adding an AUTO BO
 	new community->customer service(Napili)->Get started->Name->Create.
 * Make sure your community is active.
 * Click builder in your community, click components . Should be able to see chatbot under custom components.
-* Drag and drop the chatbot component on to the builder page.
-* Go to general settings and check on public access.
+* Drag and drop the chatbot component on to the builder page.Make sure you publish the community.
 * Go to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.

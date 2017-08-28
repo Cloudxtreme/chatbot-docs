@@ -9,5 +9,13 @@
 * Server access token: Developer/server access token of the agent configured with the AI Platform selected in the vendor field
 * Service end point: This field helps you to configure an additonal router.
 ###Live agent settings:
-* Click on the following link to set up live agent settings to your bot.
-* https://help.salesforce.com/articleView?id=live_agent_set_up_basic_implementation.htm&type=0
+* Click on this [link](https://help.salesforce.com/articleView?id=live_agent_set_up_basic_implementation.htm&type=0) to set up live agent for your org.
+* Button ID: To get button ID , follow these steps,
+	- From Setup, enter Chat Buttons in the Quick Find box, then select Chat Buttons & Invitations, click on youy chat button. Select id from the url and paste it under button id.
+* Deployment id: To get your deployment id follow these steps.
+	- From Setup, enter Deployments in the Quick Find box, then select Deployments. Select your deployment and copy the id and paste it over deployment id under live agent settings.
+* Live agent end point: Enter live agent settings in quick search and you will find live live agent api on the settings page, bring that url to the live agent end point.
+* Live agent version: Set it to latest api version of salesforce.
+* Give vistor name and save it.
+* Go to your builder and give your name in chatbot configuration modal and publish it.
+* Go to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.
