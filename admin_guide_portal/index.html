@@ -16,7 +16,7 @@
     
     
       
-        <title>Developer Guide - NeuraFlash Chatbot Solution Documentation</title>
+        <title>Admin Guide portal - NeuraFlash Chatbot Solution Documentation</title>
       
     
     
@@ -73,7 +73,7 @@
             
               
             
-            Developer Guide
+            Admin Guide portal
           
         </span>
       </div>
@@ -156,11 +156,63 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../admin_guide_portal/" title="Admin Guide portal" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Admin Guide portal
+      </label>
+    
+    <a href="./" title="Admin Guide portal" class="md-nav__link md-nav__link--active">
       Admin Guide portal
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-and-setup-a-new-chatbot" title="How to create and setup a new chatbot:" class="md-nav__link">
+    How to create and setup a new chatbot:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-settings" title="AI settings:" class="md-nav__link">
+    AI settings:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live-agent-settings" title="Live agent settings:" class="md-nav__link">
+    Live agent settings:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -192,60 +244,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        Developer Guide
-      </label>
-    
-    <a href="./" title="Developer Guide" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../developer_guide/" title="Developer Guide" class="md-nav__link">
       Developer Guide
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#developer-guide" title="Developer Guide" class="md-nav__link">
-    Developer Guide
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#api-usage" title="API Usage" class="md-nav__link">
-    API Usage
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -263,23 +266,28 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#developer-guide" title="Developer Guide" class="md-nav__link">
-    Developer Guide
+  <a href="#how-to-create-and-setup-a-new-chatbot" title="How to create and setup a new chatbot:" class="md-nav__link">
+    How to create and setup a new chatbot:
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#api-usage" title="API Usage" class="md-nav__link">
-    API Usage
+  <a href="#ai-settings" title="AI settings:" class="md-nav__link">
+    AI settings:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live-agent-settings" title="Live agent settings:" class="md-nav__link">
+    Live agent settings:
   </a>
   
 </li>
@@ -304,9 +312,63 @@
               
                 
                 
-                <h1 id="neuraflash-chatbot-solutions">NeuraFlash Chatbot Solutions</h1>
-<h2 id="developer-guide">Developer Guide</h2>
-<h3 id="api-usage">API Usage</h3>
+                  <h1>Admin Guide portal</h1>
+                
+                <h2 id="how-to-create-and-setup-a-new-chatbot">How to create and setup a new chatbot:</h2>
+<p>Clicking on configurations tab it will head to page where admin can see add new tile on the page.</p>
+<pre><code>![](img/bot_page.png)
+</code></pre>
+<ol>
+<li>AN AI configuration modal pops up after clicking on new, where you can configure your own chatbot.</li>
+<li>Enter your name in name in name field which id manditory, and make sure you check on is active to work.</li>
+<li>
+<p>By Enabling  live agent escalation makes your bot to connect to the appropriate agent which is configured under live agent settings.</p>
+<p><img alt="" src="../img/configurations.png" /></p>
+</li>
+</ol>
+<h3 id="ai-settings">AI settings:</h3>
+<ol>
+<li>AI vendor: We currently support connecting the bot to API.AI, WIT.AI, Lex.</li>
+<li>Server access token: Developer/server access token of the agent configured with the AI Platform selected in the vendor field</li>
+<li>
+<p>Service end point: This field helps you to configure an additonal router.</p>
+<p><img alt="" src="../img/ai_settings.png" /></p>
+</li>
+</ol>
+<h3 id="live-agent-settings">Live agent settings:</h3>
+<ol>
+<li>Click on this <a href="https://help.salesforce.com/articleView?id=live_agent_set_up_basic_implementation.htm&amp;type=0">link</a> to set up live agent for your org.</li>
+<li>
+<p>Button ID: To get button ID , follow these steps,</p>
+<ul>
+<li>
+<p>From Setup, enter Chat Buttons in the Quick Find box, then select Chat Buttons &amp; Invitations, click on your chat button. Select id from the url and paste it under button id.</p>
+<p><img alt="" src="../img/url.png" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Deployment id: To get your deployment id follow these steps.</p>
+<ul>
+<li>From Setup, enter Deployments in the Quick Find box, then select Deployments. Select your deployment and copy the id and paste it over deployment id under live agent settings.</li>
+</ul>
+</li>
+<li>Live agent end point: Enter live agent settings in quick search and you will find live live agent api on the settings page, bring that url to the live agent end point.</li>
+<li>
+<p>Live agent version: Set it to latest api version of salesforce.</p>
+<p><img alt="" src="../img/live_settings.png" /></p>
+</li>
+<li>
+<p>Give vistor name and save it.</p>
+</li>
+<li>
+<p>Go to your builder on your community and give your name in chatbot configuration modal and publish it.</p>
+<p><img alt="" src="../img/publish.png" /></p>
+</li>
+<li>
+<p>Go to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.</p>
+</li>
+</ol>
                 
                   
                 
@@ -325,7 +387,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../user_guide/" title="User Guide" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../about/" title="About Me" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -334,11 +396,25 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                User Guide
+                About Me
               </span>
             </div>
           </a>
         
+        
+          <a href="../admin_guide_community/" title="Admin Guide community" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Admin Guide community
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>

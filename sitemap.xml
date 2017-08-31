@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-08-28</lastmod>
+     <lastmod>2017-08-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,15 +12,23 @@
     
     <url>
      <loc>/about/</loc>
-     <lastmod>2017-08-28</lastmod>
+     <lastmod>2017-08-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>/admin_guide/</loc>
-     <lastmod>2017-08-28</lastmod>
+     <loc>/admin_guide_portal/</loc>
+     <lastmod>2017-08-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/admin_guide_community/</loc>
+     <lastmod>2017-08-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -28,7 +36,7 @@
     
     <url>
      <loc>/user_guide/</loc>
-     <lastmod>2017-08-28</lastmod>
+     <lastmod>2017-08-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -36,7 +44,7 @@
     
     <url>
      <loc>/developer_guide/</loc>
-     <lastmod>2017-08-28</lastmod>
+     <lastmod>2017-08-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
