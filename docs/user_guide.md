@@ -1,20 +1,16 @@
-Introduction about chatbot:
+## Service Agent Console View
 
-A tool that helps you serve your customers conversationally by adding an AUTO BOT (a chat component is provided part of the package) to your communities. It also gives you the flexibility of using any NLP (Natural Language Processor) of your choice (Wit.ai and Api.ai provided by default).
+1.  Go to app picker and select a console app,it will head to a page where agent can chat with customer.
+2. Make sure the agent is not in offline, agent should be active.  
 
+   ![](img/active.png)
 
-##How do I setup the bot for my community?
+3. If customer needs any attention, bot will connect chat to agent, where a modal window pops up showing the request from bot to connect to customer.
 
-* After installing your package you should be able to see neuraflash chat bot solutions in your app menu.
-* Select configuratins tab and you would find the list of configurations for various AI Services. 
-* From this tab you will be able to add a new AI Service. By Default we ship a BOT that is preconfigured with some default contexts and intents.
+   ![](img/live_agent_accept.png)
 
-###If you want to go with default chatbot make sure you follow these steps:
+4. Hovering on accept button will show the conversation between chatbot and customer.
+5. By clickig on accept the agent can start chatting with the customer.
+6. From here the agent can able to create a lead or a case based on the information collected.
 
-* Go to all communities , create new community.
-* To create new community  
-	new community->customer service(Napili)->Get started->Name->Create.
-* Make sure your community is active.
-* Click builder in your community, click components . Should be able to see chatbot under custom components.
-* Drag and drop the chatbot component on to the builder page.Make sure you publish the community.
-* Go to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.
+   ![](img/leads_cases.png)
