@@ -2,28 +2,28 @@
     "docs": [
         {
             "location": "/", 
-            "text": "NeuraFlash Chatbot Solutions\n\n\n\n\nFeatures\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.", 
+            "text": "NeuraFlash Chatbot Solutions\n\n\nAdd AI to your community\n\n\nFeatures\n\n\n\n\nintegrations Chatbot platforms with Salesforce Communities. Engage NeuraFlash for Chatbots integrated with other digital channels, including Live Agent (web chat), LiveMessage (SMS/Facebook Messenger), mobile apps etc.\n\n\nability to automatically create a Lead from a Chatbot (Bot2Lead)\n\n\nability to automatically create a Case from a Chatbot (Bot2Case)\n\n\nescalate to an Agent (LiveAgent) in Salesforce\n\n\n\n\nWhat's coming soon?\n\n\n\n\nKnowledge Integration\n\n\nFull Community Integration\n\n\nCode Generator for External Websites\n\n\nSalesforce Bot Platform support", 
             "title": "Home"
         }, 
         {
             "location": "/#neuraflash-chatbot-solutions", 
-            "text": "", 
+            "text": "Add AI to your community", 
             "title": "NeuraFlash Chatbot Solutions"
         }, 
         {
             "location": "/#features", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "text": "integrations Chatbot platforms with Salesforce Communities. Engage NeuraFlash for Chatbots integrated with other digital channels, including Live Agent (web chat), LiveMessage (SMS/Facebook Messenger), mobile apps etc.  ability to automatically create a Lead from a Chatbot (Bot2Lead)  ability to automatically create a Case from a Chatbot (Bot2Case)  escalate to an Agent (LiveAgent) in Salesforce", 
             "title": "Features"
         }, 
         {
-            "location": "/about/", 
-            "text": "What is Chatbot Solution?\n\n\nA tool that helps you serve your customers conversationally by adding an AUTO BOT (a chat component is provided part of the package) to your communities. It also gives you the flexibility of using any NLP (Natural Language Processor) of your choice (Wit.ai and Api.ai provided by default).\n\n\nHow do I setup the bot for my community?\n\n\nSetting up the bot for the community is very simple.\n\nAll you need to do is drag and drop the \"ChatBot\" Lightning component onto any Lightning page of the community.\n\nBy default it connects to our default bot, but you will be able to configure the bot to connect to your own NLP platform.\n\n\nHow do I setup the bot to connect to a different NLP platform?\n\n\nBy default the package has the ability to connect to Amazon Lex, Wit.ai or Api.ai. To configure either of these NLP platforms-\n\n\u00a0\u00a01. Navigate to the \nConfiguration\n page of our app and click on create new.\n\n\u00a0\u00a02. Fill in the details with the NLP platform being configured and save.\n\n\u00a0\u00a03. Navigate to the community page where you are using the ChatBot Component and click on the component.\n\n\u00a0\u00a04. A popup asking for Chat Config opens up, use the name of the Config here. All Set! Now your Bot is configured with the NLP platform of your choice.\n\n\nWhat is NLP\n\n\nNatural language processing\n (NLP) is a field of computer science, artificial intelligence, and computational linguistics concerned with the interactions between computers and human (natural) languages.\n\n\nWhat is Amazon Lex?\n\n\nAmazon Lex\n - Amazon Bot Engine. Amazon Lex is a service for building conversational interfaces into any application using voice and text. Amazon Lex provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text, to enable you to build applications with highly engaging user experiences and lifelike conversational interactions. With Amazon Lex, the same deep learning technologies that power Amazon Alexa are now available to any developer, enabling you to quickly and easily build sophisticated, natural language, conversational bots (\u201cchatbots\u201d).\n\n\nWhat is Wit.ai?\n\n\nWit.ai\n - Facebook Bot Engine. Natural Language for Developers. Easily create text or voice based bots that humans can chat with on their preferred messaging platform. Users enjoy a hands-free mobile experience while driving, working out, cooking. Developers use Wit to easily build a voice interface for their app.\n\n\nWhat is Api.ai?\n\n\nApi.ai\n - Google's Bot Engine. Conversational User Experience Platform. Build brand-unique, natural language interactions for bots, applications, services, and devices.", 
-            "title": "About Me"
+            "location": "/#whats-coming-soon", 
+            "text": "Knowledge Integration  Full Community Integration  Code Generator for External Websites  Salesforce Bot Platform support", 
+            "title": "What's coming soon?"
         }, 
         {
-            "location": "/about/#what-is-chatbot-solution", 
-            "text": "A tool that helps you serve your customers conversationally by adding an AUTO BOT (a chat component is provided part of the package) to your communities. It also gives you the flexibility of using any NLP (Natural Language Processor) of your choice (Wit.ai and Api.ai provided by default).", 
-            "title": "What is Chatbot Solution?"
+            "location": "/about/", 
+            "text": "\ufeff## What is Chatbot Solution?\n\n\nA tool that helps you serve your customers conversationally by adding an AUTO BOT (a chat component is provided part of the package) to your communities. It also gives you the flexibility of using any NLP (Natural Language Processor) of your choice (Wit.ai and Api.ai provided by default).\n\n\nHow do I setup the bot for my community?\n\n\nSetting up the bot for the community is very simple.\n\nAll you need to do is drag and drop the \"ChatBot\" Lightning component onto any Lightning page of the community.\n\nBy default it connects to our default bot, but you will be able to configure the bot to connect to your own NLP platform.\n\n\nHow do you setup the bot to connect to a different NLP platform?\n\n\nBy default the package has the ability to connect to Amazon Lex, Wit.ai or Api.ai. To configure either of these NLP platforms-\n\n\u00a0\u00a01. Navigate to the \nConfiguration\n page of our app and click on create new.\n\n\u00a0\u00a02. Fill in the details with the NLP platform being configured and save.\n\n\u00a0\u00a03. Navigate to the community page where you are using the ChatBot Component and click on the component.\n\n\u00a0\u00a04. A popup asking for Chat Config opens up, use the name of the Config here. All Set! Now your Bot is configured with the NLP platform of your choice.\n\n\nWhat is NLP\n\n\nNatural language processing\n (NLP) is a field of computer science, artificial intelligence, and computational linguistics concerned with the interactions between computers and human (natural) languages.\n\n\nWhat is Amazon Lex?\n\n\nAmazon Lex\n - Amazon Bot Engine. Amazon Lex is a service for building conversational interfaces into any application using voice and text. Amazon Lex provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text, to enable you to build applications with highly engaging user experiences and lifelike conversational interactions. With Amazon Lex, the same deep learning technologies that power Amazon Alexa are now available to any developer, enabling you to quickly and easily build sophisticated, natural language, conversational bots (\u201cchatbots\u201d).\n\n\nWhat is Wit.ai?\n\n\nWit.ai\n - Facebook Bot Engine. Natural Language for Developers. Easily create text or voice based bots that humans can chat with on their preferred messaging platform. Users enjoy a hands-free mobile experience while driving, working out, cooking. Developers use Wit to easily build a voice interface for their app.\n\n\nWhat is Api.ai?\n\n\nApi.ai\n - Google's Bot Engine. Conversational User Experience Platform. Build brand-unique, natural language interactions for bots, applications, services, and devices.", 
+            "title": "About Me"
         }, 
         {
             "location": "/about/#how-do-i-setup-the-bot-for-my-community", 
@@ -31,9 +31,9 @@
             "title": "How do I setup the bot for my community?"
         }, 
         {
-            "location": "/about/#how-do-i-setup-the-bot-to-connect-to-a-different-nlp-platform", 
+            "location": "/about/#how-do-you-setup-the-bot-to-connect-to-a-different-nlp-platform", 
             "text": "By default the package has the ability to connect to Amazon Lex, Wit.ai or Api.ai. To configure either of these NLP platforms- \n\u00a0\u00a01. Navigate to the  Configuration  page of our app and click on create new. \n\u00a0\u00a02. Fill in the details with the NLP platform being configured and save. \n\u00a0\u00a03. Navigate to the community page where you are using the ChatBot Component and click on the component. \n\u00a0\u00a04. A popup asking for Chat Config opens up, use the name of the Config here. All Set! Now your Bot is configured with the NLP platform of your choice.", 
-            "title": "How do I setup the bot to connect to a different NLP platform?"
+            "title": "How do you setup the bot to connect to a different NLP platform?"
         }, 
         {
             "location": "/about/#what-is-nlp", 
@@ -54,6 +54,71 @@
             "location": "/about/#what-is-apiai", 
             "text": "Api.ai  - Google's Bot Engine. Conversational User Experience Platform. Build brand-unique, natural language interactions for bots, applications, services, and devices.", 
             "title": "What is Api.ai?"
+        }, 
+        {
+            "location": "/admin_guide_portal/", 
+            "text": "How to create and setup a new chatbot:\n\n\nClicking on configurations tab it will head to page where admin can see add new tile on the page.\n\n\n\n\n\n\nAN AI configuration modal pops up after clicking on new, where you can configure your own chatbot.\n\n\nEnter your name in name in name field which id manditory, and make sure you check on is active to work.\n\n\nBy Enabling  live agent escalation makes your bot to connect to the appropriate agent which is configured under live agent settings.\n\n\n\n\n\n\nAI settings:\n\n\n\n\nAI vendor: We currently support connecting the bot to API.AI, WIT.AI, Lex.\n\n\nServer access token: Developer/server access token of the agent configured with the AI Platform selected in the vendor field\n\n\nService end point: This field helps you to configure an additonal router.\n\n\n\n\n\n\nLive agent settings:\n\n\n\n\nClick on this \nlink\n to set up live agent for your org.\n\n\nButton ID: To get button ID , follow these steps,\n\n\nFrom Setup, enter Chat Buttons in the Quick Find box, then select Chat Buttons \n Invitations, click on your chat button. Select id from the url and paste it under button id.\n\n\n\n\n\n\n\n\n\n\n\n\nDeployment id: To get your deployment id follow these steps.\n\n\nFrom Setup, enter Deployments in the Quick Find box, then select Deployments. Select your deployment and copy the id and paste it over deployment id under live agent settings.\n\n\n\n\n\n\nLive agent end point: Enter live agent settings in quick search and you will find live live agent api on the settings page, bring that url to the live agent end point.\n\n\nLive agent version: Set it to latest api version of salesforce.\n\n\n\n\n\n\n\n\nGive vistor name and save it.\n\n\nGo to your builder on your community and give your name in chatbot configuration modal and publish it.\n\n\n\n\n\n\n\n\nGo to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.", 
+            "title": "Admin Guide portal"
+        }, 
+        {
+            "location": "/admin_guide_portal/#how-to-create-and-setup-a-new-chatbot", 
+            "text": "Clicking on configurations tab it will head to page where admin can see add new tile on the page.    AN AI configuration modal pops up after clicking on new, where you can configure your own chatbot.  Enter your name in name in name field which id manditory, and make sure you check on is active to work.  By Enabling  live agent escalation makes your bot to connect to the appropriate agent which is configured under live agent settings.", 
+            "title": "How to create and setup a new chatbot:"
+        }, 
+        {
+            "location": "/admin_guide_portal/#ai-settings", 
+            "text": "AI vendor: We currently support connecting the bot to API.AI, WIT.AI, Lex.  Server access token: Developer/server access token of the agent configured with the AI Platform selected in the vendor field  Service end point: This field helps you to configure an additonal router.", 
+            "title": "AI settings:"
+        }, 
+        {
+            "location": "/admin_guide_portal/#live-agent-settings", 
+            "text": "Click on this  link  to set up live agent for your org.  Button ID: To get button ID , follow these steps,  From Setup, enter Chat Buttons in the Quick Find box, then select Chat Buttons   Invitations, click on your chat button. Select id from the url and paste it under button id.       Deployment id: To get your deployment id follow these steps.  From Setup, enter Deployments in the Quick Find box, then select Deployments. Select your deployment and copy the id and paste it over deployment id under live agent settings.    Live agent end point: Enter live agent settings in quick search and you will find live live agent api on the settings page, bring that url to the live agent end point.  Live agent version: Set it to latest api version of salesforce.     Give vistor name and save it.  Go to your builder on your community and give your name in chatbot configuration modal and publish it.     Go to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.", 
+            "title": "Live agent settings:"
+        }, 
+        {
+            "location": "/admin_guide_community/", 
+            "text": "Introduction about chatbot:\n\n\nA tool that helps you serve your customers conversationally by adding an AUTO BOT (a chat component is provided part of the package) to your communities. It also gives you the flexibility of using any NLP (Natural Language Processor) of your choice (Wit.ai and Api.ai provided by default).\n\n\nHow do I setup the bot for my community?\n\n\n\n\nAfter installing your package you should be able to see neuraflash chat bot solutions in your app menu.\n\n\nSelect configurations tab and you would find the list of configurations for various AI Services. \n\n\nFrom this tab you will be able to add a new AI Service. By Default we ship a BOT that is preconfigured with some default contexts and intents.\n\n\n\n\nIf you want to go with default chatbot make sure you follow these steps:\n\n\n\n\nGo to all communities , create new community.\n\n\nTo create new community\n\n    new community-\ncustomer service(Napili)-\nGet started-\nName-\nCreate.\n\n\nMake sure your community is active.\n\n\nClick builder in your community, click components . Should be able to see chatbot under custom components.\n\n\n\n\n\n\n\n\nDrag and drop the chatbot component on to the builder page.Make sure you publish the community.\n\n\nGo to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.", 
+            "title": "Admin Guide community"
+        }, 
+        {
+            "location": "/admin_guide_community/#how-do-i-setup-the-bot-for-my-community", 
+            "text": "After installing your package you should be able to see neuraflash chat bot solutions in your app menu.  Select configurations tab and you would find the list of configurations for various AI Services.   From this tab you will be able to add a new AI Service. By Default we ship a BOT that is preconfigured with some default contexts and intents.", 
+            "title": "How do I setup the bot for my community?"
+        }, 
+        {
+            "location": "/admin_guide_community/#if-you-want-to-go-with-default-chatbot-make-sure-you-follow-these-steps", 
+            "text": "Go to all communities , create new community.  To create new community \n    new community- customer service(Napili)- Get started- Name- Create.  Make sure your community is active.  Click builder in your community, click components . Should be able to see chatbot under custom components.     Drag and drop the chatbot component on to the builder page.Make sure you publish the community.  Go to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.", 
+            "title": "If you want to go with default chatbot make sure you follow these steps:"
+        }, 
+        {
+            "location": "/user_guide/", 
+            "text": "Service Agent Console View\n\n\n\n\nGo to app picker and select a console app,it will head to a page where agent can chat with customer.\n\n\nMake sure the agent is not in offline, agent should be active.  \n\n\n\n\n\n\n\n\nIf customer needs any attention, bot will connect chat to agent, where a modal window pops up showing the request from bot to connect to customer.\n\n\n\n\n\n   \n\n\n\n\nHovering on accept button will show the conversation between chatbot and customer.\n\n\nBy clickig on accept the agent can start chatting with the customer.\n\n\nFrom here the agent can able to create a lead or a case based on the information collected.", 
+            "title": "User Guide"
+        }, 
+        {
+            "location": "/user_guide/#service-agent-console-view", 
+            "text": "Go to app picker and select a console app,it will head to a page where agent can chat with customer.  Make sure the agent is not in offline, agent should be active.       If customer needs any attention, bot will connect chat to agent, where a modal window pops up showing the request from bot to connect to customer.   \n      Hovering on accept button will show the conversation between chatbot and customer.  By clickig on accept the agent can start chatting with the customer.  From here the agent can able to create a lead or a case based on the information collected.", 
+            "title": "Service Agent Console View"
+        }, 
+        {
+            "location": "/developer_guide/", 
+            "text": "NeuraFlash Chatbot Solutions\n\n\nDeveloper Guide\n\n\nAPI Usage", 
+            "title": "Developer Guide"
+        }, 
+        {
+            "location": "/developer_guide/#neuraflash-chatbot-solutions", 
+            "text": "", 
+            "title": "NeuraFlash Chatbot Solutions"
+        }, 
+        {
+            "location": "/developer_guide/#developer-guide", 
+            "text": "", 
+            "title": "Developer Guide"
+        }, 
+        {
+            "location": "/developer_guide/#api-usage", 
+            "text": "", 
+            "title": "API Usage"
         }
     ]
 }

@@ -17,11 +17,9 @@ A tool that helps you serve your customers conversationally by adding an AUTO BO
 3. Make sure your community is active.
 4. Click builder in your community, click components . Should be able to see chatbot under custom components.
 
-
-    ![](img/components.png)
+[![AISettings](img/components.PNG)](img/components.PNG)
 
 5. Drag and drop the chatbot component on to the builder page.Make sure you publish the community.
 6. Go to your community and select the url of your community, should be able to see chatbot on the bottom of the community page.
 
-
-    ![](img/bot.png)
+[![AISettings](img/bot.PNG)](img/bot.PNG)
